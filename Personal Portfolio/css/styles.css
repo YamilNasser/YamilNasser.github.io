@@ -1,0 +1,92 @@
+body {
+    background-image: linear-gradient(90deg,white, black);
+  }
+.logo {
+display: inline-block;
+vertical-align: top;
+width: 300px;
+height: 300px;
+margin-left: 5px;
+margin-top: 5px;
+}
+h2 {
+  text-align:center;
+  color:black;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.wrapper .top_nav{
+  margin-top: 20px;
+  width: 100%;
+  height: 65px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper .top_nav .left{
+  display: flex;
+  align-items: left;
+}
+
+.wrapper .top_nav .left{
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .top_nav .right ul{
+  display: flex;
+}
+
+.wrapper .top_nav .right ul li{
+  margin: 0 12px;
+}
+
+.wrapper .top_nav .right ul li:last-child{
+  background:  red;
+  margin-right: 0;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.wrapper .top_nav .right ul li a{
+  display: block;
+  padding: 8px 10px;
+  color: white;
+}
+
+.wrapper .top_nav .right ul li:last-child a{
+   color: white;
+}
+.column {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  vertical-align: top;
+  text-align: center;
+  width: 33.33%;
+}
+
+.column > a {
+  flex: 0 0 100%;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+}
+
+#about-me {
+  text-align: center;
+  color: blue;
+}
